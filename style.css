@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500&display=swap');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+body {
+   padding-top: 10px;
+}
+
+.container_logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.logo {
+   font-family: 'Anton', sans-serif;
+   font-size: 60px;
+}
+
+img {
+   width: 50px;
+   height: 50px;
+}
+
+.zero {
+   color: rgb(255, 221, 0);
+}
+
+.container_menu {
+   display: flex;
+   justify-content: center;
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+a {
+   color: rgb(46, 44, 44);
+   padding: 25px;
+   font-family: 'Hind', sans-serif;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.big_photo {
+   border: 1px solid black;
+   width: 96%;
+   height: 700px;
+   background-image: url(./img/pexels-rehan-verma-2275222.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   /* background-position: center; */
+   position: relative;
+   left: 35px;
+   margin-bottom: 20px;
+}
+
+.ramka {
+   width: 420px;
+   height: 200px;
+   background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234, 156, 65, 0.7)100%);
+   border-radius: 15px;
+   position: relative;
+   left: 54%; /* В % что бы картинка не плавала при сдвигании */
+   top: 50%;  /* Расстояние от верхнего края */
+   z-index: 1;
+   padding-top: 15px;
+}
+
+.ramka_2 {
+   border: 1px solid black;
+   width: 390px;
+   height: 170px;
+   border-radius: 15px;
+   margin: 0 auto;
+   
+}
+
+.big_text {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 10px;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+.mini_text {
+   font-size: 15px;
+   text-align: left;
+   padding: 10px;
+   line-height: 20px;
+}
+
+/*Карточки*/
+
+.text_card {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 40px;
+   font-size: 40px;
+}
+
+.text_card p {
+   font-family: 'Comfortaa', cursive;
+}
+
+.big_text_card {
+   color: rgb(255, 221, 0);
+}
+
+.section_card_container {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 120px;  /* Отступ от кукурузы */
+   /* text-align: center; */
+}
+
+.card {
+   border: 1px solid black;
+   width: 350px;
+   height: 200px;
+   border-radius: 15px;
+   box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.25);
+   margin-bottom: 20px;
+}
+
+.card_1 {
+   background-image: url(./img/Depositphotos_312581384_S.jpg);
+   background-size: cover;
+
+}
+
+.card_2 {
+   background-image: url(./img/Depositphotos_77907792_S.jpg);
+   background-size: cover;
+}
+
+.card_3 {
+   background-image: url(./img/Depositphotos_7930315_S.jpg);
+   background-size: cover;
+}
+
+.card_4 {
+   background-image: url(./img/Depositphotos_79117538_S.jpg);
+   background-size: cover;
+}
+
+.section_card_container p {
+   font-family: 'Hind', sans-serif;
+   font-size: 20px;
+}
+
+/* Зеленый блок с текстом */
+
+.red_block_container {
+   display: flex;
+   justify-content: space-between;
+   width: 90%;
+   height: 500px;
+   background-color: #85FFBD;
+   background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+   position: relative;
+   border-radius: 15px;
+   left: 30px;
+   margin-bottom: 150px;
+}
+
+.red_block_container p {  /* Указал что у всех (p) такие свойства */
+   display: inline-flex;
+   font-size: 40px;
+   padding-left: 50px;
+   padding-top: 70px;
+   color: rgb(65, 58, 58);
+}
+
+.red_ramka_photo {
+   background-image: url(./img/ded.jpg);
+   width: 1150px;
+   height: 600px;
+   background-size: cover;
+   border-radius: 15%;
+   position: relative;
+   top: -50px;
+   left: 70px;
+   
+}
+/* Карта */
+
+.block_map {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 100px;
+}
+
+.block_map p {
+   font-size: 40px;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.map_block {
+   width: 95%;
+   height: 500px;
+   border-radius: 15px;
+   border: 1px solid red;
+   margin-left: 40px;
+}
+
+.mapa {
+   width: 100%;
+   height: 498px;
+   border-radius: 15px;
+}
+
+/* Покупка и продажа зерна */
+
+.text_block_zerno {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 50px;
+   font-size: 40px;
+   text-align: center;
+   font-family: 'Anton', sans-serif;
+   position: relative;
+   left: -30px;
+}
+
+.color_span {
+   color: coral;
+}
+
+.block_and_block {
+   display: flex;
+   justify-content: space-around;
+   padding-bottom: 100px;
+}
+
+.photo_1 {
+   background-image: url(./img/prodaja.jpeg);
+   width: 600px;
+   height: 400px;
+   background-size: cover;
+   border-radius: 15px;
+}
+
+.photo_2 {
+   background-image: url(./img/pokypka.jpeg);
+   width: 600px;
+   height: 400px;
+   background-size: cover;
+   border-radius: 15px;
+}
+
+/* Подвал */
+
+.footer {
+   width: 100%;
+   height: 400px;
+   background: black;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   padding-top: 50px;
+   margin-bottom: 100px;
+
+ }
+ 
+ .footer-content {
+   max-width: 1200px;
+   flex: 1;
+   display: flex;
+   flex-direction: row;
+ }
+ 
+ .column {
+   color: #fff;
+   flex: 1;
+   font-size: 30px;
+ }
+
+ .text_title {
+   font-weight: 700;
+ }
+
+ .column img {
+   display: inline-block;
+   position: relative;
+   width: 20px;
+   height: 20px;
+ }
+
+ .number {
+   display: inline-block;
+   font-size: 17px;
+   position: relative;
+   left: 10px;
+   top: -9px;
+   margin-bottom: 15px;
+   
+}
+
+.number_map {
+   position: relative;
+}
+
+.number_map_icon {
+   display: inline-block;
+   font-size: 15px;
+   position: relative;
+   top: -9px;
+   left: 10px;
+
+}
+
+.list_2 {
+   position: relative;
+   font-size: 20px;
+   top: -5px;
+   padding-bottom: 25px;
+}
+
+/* Социальные сети */
+
+.social {
+   display: inline;
+   position: relative;
+   top: 20px;
+}
+
+.social a {
+   text-align: center; 
+   width: 40px;
+   height: 40px;
+   float: left;
+   background: #fff;
+   border: 1px solid #ccc;
+   box-shadow: 7px 5px 5px black;
+   border-radius: 24px;
+   margin: 0 10px 10px 0;
+   padding: 5px;
+   color: #000;
+}
+
+.fa {
+   font-size: 30px;
+}
+
+.github a:hover {background: #191919; color: #fff;}
+.youtube a:hover {background: #c4302b; color: #fff;}
+.twitter a:hover {background: #00acee; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+
+
+.end_text_podval {
+   position: relative;
+   top: 40px;
+   font-size: 15px;
+}
+
+ion-icon {
+   color: white;
+   font-size: 30px;
+}
